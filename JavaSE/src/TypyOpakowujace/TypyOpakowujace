@@ -1,0 +1,16 @@
+<--Typy Opakowuj¹ce, typów prostych-->
+W javie ka¿dy typ prosty posiada swój typ opakowuj¹cy do typu referencyjnego. To znaczy
+¿e liczby, czy znaki bêd¹ wtedy reprezentowane za pomoc¹ obiektów. Odpowiedniki klas dla typów
+postych wymienione s¹ poni¿ej:
+byte - Byte
+short - Short
+int - Integer
+float - Float
+double - Double
+char - Character
+boolean - Boolean
+Najczêœciej jest to kwestia zmiany litery z ma³ej na wielk¹ na pocz¹tku nazwy.
+Wszystkie z powy¿szych klas, oprócz Character i Boolean, rozszerzaj¹ klasê Number,
+dziêki czemu mo¿emy tak¿e korzystaæ z polimorfizmu(np. tablica typu Number, która przechowuje
+obiekty Interger i Double).
+W celu stworzenia obiektów odpowiednich typów stosujemy konstruktor lub statyczn¹ metodê valueOf().
